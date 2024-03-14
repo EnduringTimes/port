@@ -1,9 +1,15 @@
+body{ 
+    background: linear-gradient( rgb(38, 43, 52), rgb(136, 10, 155));
+}
+
 .header{
 
 }
 
 .nav{
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h1{
@@ -24,7 +30,7 @@ img{
 
 p{
 
-    
+
 }
 
 .projects{
