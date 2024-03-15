@@ -42,7 +42,16 @@ h1{ display: block;
 }
 h2{
     display: block;
-    text-align: center;}
+    text-align: center;
+    text-shadow: #f511b8 1.5px 1px 3.5px;
+    color: rgb(0, 0, 0);
+   
+ 
+}
+
+.subtitle{
+   font-style: italic;
+}
 
     .about-img{
         width: 35%;
@@ -90,9 +99,14 @@ img{
 }
 
 p{
-    padding: 10px;
-    text-align: left;
-    color: #ffffff;
+    border-style: inset;
+       border-color: #f511b8;
+       background-color: rgb(17, 13, 13);
+       padding: 10px;
+       text-align: center;
+       color: #ffffff;
+       width: 60%;
+       margin: 20px auto 10px auto;
 
 
 }
